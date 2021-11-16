@@ -10,9 +10,13 @@
 
 ![image](https://user-images.githubusercontent.com/18443728/141944759-46f13504-6965-4c13-93d3-d4306d37e9e0.png)
 
-[Database Schema Diagram.pdf](https://github.com/tusharshah09/pcm/files/7544355/Database.Schema.Diagram.pdf)
+- **Design Pattern**
+  * Command Query REsponsibility Segregation (CQRS)
+  * Repository Pattern
 
-- SQL Script (MySQL):
+![image](https://user-images.githubusercontent.com/18443728/142081973-4f4f9516-494b-4002-8116-2596a8fb2cb3.png)
+
+- **SQL Script (MySQL):**
 ```
 CREATE DATABASE `pcm` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 ```
@@ -125,11 +129,6 @@ CREATE TABLE `product_sku` (
   CONSTRAINT `fk_sku_id` FOREIGN KEY (`sku_id`) REFERENCES `sku` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 ```
-- **Design Pattern**
-  * Command Query REsponsibility Segregation (CQRS)
-  * Repository Pattern
-
-![image](https://user-images.githubusercontent.com/18443728/141949652-f5e0637c-9ff0-460f-867b-ac615343f4ab.png)
 
 - **Application Configuraton**:
 
