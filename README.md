@@ -132,6 +132,11 @@ CREATE TABLE `product_sku` (
   CONSTRAINT `fk_sku_id` FOREIGN KEY (`sku_id`) REFERENCES `sku` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 ```
+- **Test data files**
+
+```
+https://github.com/tusharshah09/pcm/tree/main/documents/mysql%20data
+```
 
 - **Application Configuraton**:
 
