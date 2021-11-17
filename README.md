@@ -4,6 +4,8 @@
 
 - **API List (Swagger Document)**
 
+  http://localhost:9010/swagger-ui/index.html
+  
 ![image](https://user-images.githubusercontent.com/18443728/141943999-e8e725a3-2ba8-4726-8208-e1138a34d8ee.png)
 
 - **Database Schema Design**
@@ -11,6 +13,7 @@
 ![image](https://user-images.githubusercontent.com/18443728/141944759-46f13504-6965-4c13-93d3-d4306d37e9e0.png)
 
 - **Design Pattern**
+- 
   * Command Query REsponsibility Segregation (CQRS)
   * Repository Pattern
 
@@ -150,6 +153,8 @@ Applicaton running on below port
 (1) pcm-gateway: http://localhost:9000
 
 (2) pcm-api: http://localhost:9010
+
+(3) Swagger URL: http://localhost:9010/swagger-ui/index.html
 
 Here is the postman collection for pcm-api with different environment (internal and gateway environment)
 
