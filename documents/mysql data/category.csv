@@ -1,0 +1,16 @@
+"id";"name";"active";"is_featured";"navigation_included";"url";"url_key";"parent_id"
+10109;"Kitchen & Lifestyle";0;0;0;"/kitchen-and-lifestyle";"";0
+10111;"Food & Drink";0;0;0;"/food";"";0
+10129;"Chips, crisps, and crackers";1;0;1;"/food/chips-crisps-crackers";"chips-crisps-and-crackers";10111
+10131;"Snack bars";1;0;1;"/food/snack-bars";"snack-bars";10111
+10188;"Kitchen";0;0;0;"/kitchen";"";10109
+10191;"Kitchen tools";1;0;1;"/kitchen/kitchen-tools";"kitchen-tools";10188
+10266;"Lifestyle";0;0;0;"/lifestyle";"";10109
+10289;"Puffed snacks";1;0;1;"/food/puffed-snacks";"puffed-snacks";10111
+10354;"Books and dining guides";1;0;1;"/lifestyle/books-and-dining-guides";"books-and-dining-guides";10266
+10372;"Drinkware";1;0;1;"/kitchen/drinkware";"drinkware";10188
+10375;"Cookbooks";1;0;1;"/kitchen/cookbooks";"cookbooks";10188
+10381;"Food containers";1;0;1;"/kitchen/food-containers";"food-containers";10188
+10502;"Small appliances
+";1;0;1;"/kitchen/small-appliances";"small-appliances";10188
+17090;"Sleep";1;0;1;"/lifestyle/sleep";"sleep";10266
