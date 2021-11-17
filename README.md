@@ -133,6 +133,9 @@ CREATE TABLE `product_sku` (
 - **Application Configuraton**:
 
  * application.properties
+
+Please update application properties file if your MySQL details are different like MySql Server URL, Username and Password.
+
 ```
 server.port=9010
 springdoc.swagger-ui.tags-sorter=true
@@ -141,3 +144,14 @@ spring.datasource.url=jdbc:mysql://localhost:3306/pcm
 spring.datasource.username=username
 spring.datasource.password=password
 ```
+
+Applicaton running on below port
+
+(1) pcm-gateway: http://localhost:9000
+
+(2) pcm-api: http://localhost:9010
+
+Here is the postman collection for pcm-api with different environment (internal and gateway environment)
+
+[postman collection.zip](https://github.com/tusharshah09/pcm/files/7551969/postman.collection.zip)
+
