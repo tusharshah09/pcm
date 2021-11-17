@@ -1,0 +1,12 @@
+server:
+  port: 9000
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: pcm-route
+        uri: http://localhost:9010
+        predicates:
+        - Path=/**
+        - Method=GET
+     
