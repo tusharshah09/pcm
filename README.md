@@ -151,6 +151,8 @@ Applicaton running on below port
 
 (2) pcm-api: http://localhost:9010
 
+(3) Swagger URL: http://localhost:9010/swagger-ui/index.html
+
 Here is the postman collection for pcm-api with different environment (internal and gateway environment)
 
 [postman collection.zip](https://github.com/tusharshah09/pcm/files/7551969/postman.collection.zip)
